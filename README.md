@@ -78,7 +78,9 @@ The submission will be evaluated based on the following parameters:
     - **Accuracy**
     - **Precision**
     - **Recall**
-   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
+   
+
+![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
 
 ---
 
