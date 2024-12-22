@@ -111,7 +111,7 @@ The dataset consists of three files:
      - `Pincode`: Numeric postal code.
      - `CircleName`, `RegionName`, `DivisionName`, `OfficeName`: Geographic classifications.
      - `Latitude`, `Longitude`: Geographical coordinates.
-
+![Distribution of Predicted SLA](https://github.com/meakc/assignment/blob/main/Distribution.png)
 ---
 
 ## Installation Instructions
