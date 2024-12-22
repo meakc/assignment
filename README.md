@@ -1,6 +1,6 @@
+# Estimated Delivery Date (EDD) Prediction
 
-# Estimated Delivery Date (EDD) Prediction  
-**ClickPost Data Science Internship Assignment**
+## ClickPost Data Science Internship Assignment
 
 ---
 
@@ -57,8 +57,6 @@ The training dataset comprises daily shipment data of an e-commerce enterprise f
 5. **Engineering Documentation:**  
    A brief document outlining suggestions on integrating the EDD prediction model with the ClickPost system, enabling EDD consumption at both order and bulk levels.
 
-
-      ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
 ---
 
 ## Evaluation Metrics
@@ -78,9 +76,6 @@ The submission will be evaluated based on the following parameters:
     - **Accuracy**
     - **Precision**
     - **Recall**
-   
-
-![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
 
 ---
 
@@ -113,7 +108,7 @@ The dataset consists of three files:
      - `Pincode`: Numeric postal code.
      - `CircleName`, `RegionName`, `DivisionName`, `OfficeName`: Geographic classifications.
      - `Latitude`, `Longitude`: Geographical coordinates.
-![Distribution of Predicted SLA](https://github.com/meakc/assignment/blob/main/Distribution.png)
+
 ---
 
 ## Installation Instructions
@@ -136,7 +131,7 @@ To replicate the project environment, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-   *If a `requirements.txt` file is not provided, you can install the necessary packages manually:*
+   *If a `requirements.txt` file is not provided, you can install the necessary packages manually:*  
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
@@ -171,8 +166,8 @@ Random Forest Regressor
 Random Forest is an ensemble learning method known for its robustness and ability to handle both numerical and categorical features. It effectively manages feature interactions and reduces the risk of overfitting, making it suitable for predicting continuous variables like EDD.
 
 **Model Performance:**  
-- **RMSE:** 0.76
-- **MAE:** 0.36
+- **RMSE:** 0.76  
+- **MAE:** 0.36  
 - **R² Score:** 0.81
 
 These metrics indicate a strong correlation between the predicted and actual EDD values, showcasing the model's effectiveness.
@@ -237,8 +232,6 @@ Several visualizations have been created to understand the data and model perfor
 
 8. **Performance Comparison Bar Plot:**  
    Compares regression and classification metrics side by side.
-
-
 
 *All visualizations are generated using Seaborn and Matplotlib and are embedded within the Jupyter Notebook.*
 
@@ -305,4 +298,6 @@ This project successfully developed a Random Forest Regressor model to predict t
 
 ---
 
-Abhishek Kumar Choudhary
+## Contact
+
+**Abhishek Kumar Choudhary**
