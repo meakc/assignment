@@ -57,6 +57,9 @@ The training dataset comprises daily shipment data of an e-commerce enterprise f
 5. **Engineering Documentation:**  
    A brief document outlining suggestions on integrating the EDD prediction model with the ClickPost system, enabling EDD consumption at both order and bulk levels.
 
+   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
+      ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
+
 ---
 
 ## Evaluation Metrics
@@ -214,7 +217,6 @@ Several visualizations have been created to understand the data and model perfor
 
 1. **Feature Importance Bar Plot:**  
    Highlights the significance of each feature in the model.
-   ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
 
 3. **SLA Distribution Histogram:**  
    Shows the distribution of predicted SLA values.
@@ -234,7 +236,7 @@ Several visualizations have been created to understand the data and model perfor
 8. **Performance Comparison Bar Plot:**  
    Compares regression and classification metrics side by side.
 
-   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
+
 
 *All visualizations are generated using Seaborn and Matplotlib and are embedded within the Jupyter Notebook.*
 
