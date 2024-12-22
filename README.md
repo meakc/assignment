@@ -117,8 +117,8 @@ To replicate the project environment, follow these steps:
 
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/yourusername/edd-prediction-clickpost.git
-   cd edd-prediction-clickpost
+   git clone https://github.com/meakc/assignment.git
+   cd assignment
    ```
 
 2. **Set Up a Virtual Environment (Optional but Recommended):**  
@@ -214,24 +214,27 @@ Several visualizations have been created to understand the data and model perfor
 
 1. **Feature Importance Bar Plot:**  
    Highlights the significance of each feature in the model.
+   ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
 
-2. **SLA Distribution Histogram:**  
+3. **SLA Distribution Histogram:**  
    Shows the distribution of predicted SLA values.
 
-3. **Residual Distribution Plot:**  
+4. **Residual Distribution Plot:**  
    Illustrates the residuals to assess the model's prediction errors.
 
-4. **Confusion Matrix:**  
+5. **Confusion Matrix:**  
    (Applicable if classification metrics are used) Displays the performance of the classification model.
 
-5. **Classification Report Heatmap:**  
+6. **Classification Report Heatmap:**  
    Visualizes precision, recall, and F1-score for each class.
 
-6. **Class Distribution Plots:**  
+7. **Class Distribution Plots:**  
    Compares the distribution of true and predicted classes.
 
-7. **Performance Comparison Bar Plot:**  
+8. **Performance Comparison Bar Plot:**  
    Compares regression and classification metrics side by side.
+
+   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
 
 *All visualizations are generated using Seaborn and Matplotlib and are embedded within the Jupyter Notebook.*
 
@@ -298,12 +301,4 @@ This project successfully developed a Random Forest Regressor model to predict t
 
 ---
 
-## Contact
-
-For any inquiries or further information, please contact:
-
-**Your Name**  
-Data Scientist  
-Email: [your.email@example.com](mailto:your.email@example.com)  
-LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-GitHub: [github.com/yourusername](https://github.com/yourusername)
+Abhishek Kumar Choudhary
