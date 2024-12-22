@@ -57,9 +57,8 @@ The training dataset comprises daily shipment data of an e-commerce enterprise f
 5. **Engineering Documentation:**  
    A brief document outlining suggestions on integrating the EDD prediction model with the ClickPost system, enabling EDD consumption at both order and bulk levels.
 
-   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
-      ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
 
+      ![Feature Importance](https://github.com/meakc/assignment/blob/main/feature_importance.png)
 ---
 
 ## Evaluation Metrics
@@ -79,6 +78,7 @@ The submission will be evaluated based on the following parameters:
     - **Accuracy**
     - **Precision**
     - **Recall**
+   ![Classification Report](https://github.com/meakc/assignment/blob/main/classification%20report.png)
 
 ---
 
